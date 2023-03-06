@@ -26,7 +26,7 @@ Answer: There are 83046 unique words in the training corpus, including </s> and 
  2. (5 points) How many word tokens are there in the training corpus? Do not include the start of sentence padding symbol <s>.
 Answer: There are 2368210 word tokens in the training corpus, excluding <s>.
 
- 3.(10 points) What percentage of word tokens and word types in the test corpus did not occur in training (before you mapped the unknown words to <unk> in training and test data)? Please include the padding symbol </s> in your calculations. Do not include the start of sentence padding symbol <s>.
+## 3.(10 points) What percentage of word tokens and word types in the test corpus did not occur in training (before you mapped the unknown words to <unk> in training and test data)? Please include the padding symbol </s> in your calculations. Do not include the start of sentence padding symbol <s>.
 
 Answer: The percentage of word tokens and word types in the test corpus that did not occur in the training corpus is 33.74% and 0.71%, respectively, including </s>.
 
