@@ -23,16 +23,16 @@ The following questions were answered:
  1.(5 points) How many word types (unique words) are there in the training corpus? Please include the end-of-sentence padding symbol </s> and the unknown token <unk>. Do not include the start of sentence padding symbol <s>.
 Answer: There are 83046 unique words in the training corpus, including </s> and <unk>.
 
- 2. (5 points) How many word tokens are there in the training corpus? Do not include the start of sentence padding symbol <s>.
+## 2. (5 points) How many word tokens are there in the training corpus? Do not include the start of sentence padding symbol <s>.
 Answer: There are 2368210 word tokens in the training corpus, excluding <s>.
 
- 3.(10 points) What percentage of word tokens and word types in the test corpus did not occur in training (before you mapped the unknown words to <unk> in training and test data)? Please include the padding symbol </s> in your calculations. Do not include the start of sentence padding symbol <s>.
+## 3.(10 points) What percentage of word tokens and word types in the test corpus did not occur in training (before you mapped the unknown words to <unk> in training and test data)? Please include the padding symbol </s> in your calculations. Do not include the start of sentence padding symbol <s>.
 
 Answer: The percentage of word tokens and word types in the test corpus that did not occur in the training corpus is 33.74% and 0.71%, respectively, including </s>.
 
-4.(15 points) Now replace singletons in the training data with <unk> symbol and map words (in the test corpus) not observed in training to <unk>. What percentage of bigrams (bigram types and bigram tokens) in the test corpus did not occur in training (treat <unk> as a regular token that has been observed)? Please include the padding symbol </s> in your calculations. Do not include the start of sentence padding symbol <s>.
+## 4.(15 points) Now replace singletons in the training data with <unk> symbol and map words (in the test corpus) not observed in training to <unk>. What percentage of bigrams (bigram types and bigram tokens) in the test corpus did not occur in training (treat <unk> as a regular token that has been observed)? Please include the padding symbol </s> in your calculations. Do not include the start of sentence padding symbol <s>.
  Answer: The percentage of bigram types and tokens in the test corpus that did not occur in the training corpus is 42.935%, including </s>.
- 5.(15 points) Compute the log probability of the following sentence under the three models (ignore capitalization and pad each sentence as described above). Please list all of the parameters required to compute the probabilities and show the complete calculation. Which of the parameters have zero values under each model? Use log base 2 in your calculations. Map words not observed in the training corpus to the <unk> token.
+## 5.(15 points) Compute the log probability of the following sentence under the three models (ignore capitalization and pad each sentence as described above). Please list all of the parameters required to compute the probabilities and show the complete calculation. Which of the parameters have zero values under each model? Use log base 2 in your calculations. Map words not observed in the training corpus to the <unk> token.
 • I look forward to hearing your reply.
 Answer:
 Parameters:
