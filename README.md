@@ -20,21 +20,21 @@ Bigram model with Add-One smoothing.
 
 The following questions were answered:
 
-### 1.(5 points) How many word types (unique words) are there in the training corpus? Please include the end-of-sentence padding symbol </s> and the unknown token <unk>. Do not include the start of sentence padding symbol <s>.
+## 1.(5 points) How many word types (unique words) are there in the training corpus? Please include the end-of-sentence padding symbol </s> and the unknown token <unk>. Do not include the start of sentence padding symbol <s>.
 Answer: There are 83046 unique words in the training corpus, including </s> and <unk>.
 
-### 2. (5 points) How many word tokens are there in the training corpus? Do not include the start of sentence padding symbol <s>.
+## 2. (5 points) How many word tokens are there in the training corpus? Do not include the start of sentence padding symbol <s>.
 Answer: There are 2368210 word tokens in the training corpus, excluding <s>.
 
 ### 3.(10 points) What percentage of word tokens and word types in the test corpus did not occur in training (before you mapped the unknown words to <unk> in training and test data)? Please include the padding symbol </s> in your calculations. Do not include the start of sentence padding symbol <s>.
 
 Answer: The percentage of word tokens and word types in the test corpus that did not occur in the training corpus is 33.74% and 0.71%, respectively, including </s>.
 
-### 4.(15 points) Now replace singletons in the training data with <unk> symbol and map words (in the test corpus) not observed in training to <unk>. What percentage of bigrams (bigram types and bigram tokens) in the test corpus did not occur in training (treat <unk> as a regular token that has been observed)? Please include the padding symbol </s> in your calculations. Do not include the start of sentence padding symbol <s>.
+## 4.(15 points) Now replace singletons in the training data with <unk> symbol and map words (in the test corpus) not observed in training to <unk>. What percentage of bigrams (bigram types and bigram tokens) in the test corpus did not occur in training (treat <unk> as a regular token that has been observed)? Please include the padding symbol </s> in your calculations. Do not include the start of sentence padding symbol <s>.
 
 Answer: The percentage of bigram types and tokens in the test corpus that did not occur in the training corpus is 42.935%, including </s>.
 
-### 5.(15 points) Compute the log probability of the following sentence under the three models (ignore capitalization and pad each sentence as described above). Please list all of the parameters required to compute the probabilities and show the complete calculation. Which of the parameters have zero values under each model? Use log base 2 in your calculations. Map words not observed in the training corpus to the <unk> token.
+## 5.(15 points) Compute the log probability of the following sentence under the three models (ignore capitalization and pad each sentence as described above). Please list all of the parameters required to compute the probabilities and show the complete calculation. Which of the parameters have zero values under each model? Use log base 2 in your calculations. Map words not observed in the training corpus to the <unk> token.
 • I look forward to hearing your reply.
 
 Answer:
@@ -51,7 +51,7 @@ Bigram Add-One log probability: -63.67526919319887
 In the bigram model, the log probability is undefined
 
 
-### 6.(20 points) Compute the perplexity of the sentence above under each of the models.
+## 6.(20 points) Compute the perplexity of the sentence above under each of the models.
 
 Answer:
 Perplexity is a measure of how well a language model predicts a sample of text. A lower perplexity indicates a better fit of the language model to the data.
@@ -65,7 +65,7 @@ Bigram with Add-One smoothing: 82.56891939636107
 For the bigram model, since the log probability is undefined, we cannot calculate perplexity. The perplexity of the unigram model is much higher than that of the bigram with Add-One smoothing, which indicates that the latter model is a better fit for the given sentence.
 
 
-### 7.(20 points) Compute the perplexity of the entire test corpus under each of the models. Discuss the differences in the results you obtained.
+## 7.(20 points) Compute the perplexity of the entire test corpus under each of the models. Discuss the differences in the results you obtained.
 
 Answer:
 The perplexity of the entire test corpus under each model is:
